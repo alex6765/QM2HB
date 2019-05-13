@@ -1,0 +1,444 @@
+httpGet OK!
+                datetime    open   close    ...        MA10     MA20      MA60
+199  2019-05-10 13:00:00  4.9179  4.8823    ...     4.79474  4.80876  4.865922
+
+[1 rows x 15 columns]
+PASS THIS TIME!
+P
+==========
+httpGet OK!
+                datetime    open   close    ...        MA10     MA20      MA60
+199  2019-05-10 14:00:00  4.8697  4.8698    ...     4.79874  4.80791  4.865718
+
+[1 rows x 15 columns]
+PASS THIS TIME!
+P
+==========
+httpGet OK!
+                datetime    open  close    ...        MA10      MA20      MA60
+199  2019-05-10 15:00:00  4.8901  4.891    ...     4.80632  4.810895  4.866132
+
+[1 rows x 15 columns]
+PASS THIS TIME!
+P
+==========
+httpGet OK!
+                datetime    open   close    ...       MA10      MA20      MA60
+198  2019-05-10 15:00:00  4.8901  4.8908    ...     4.8063  4.810885  4.866128
+
+[1 rows x 15 columns]
+PASS THIS TIME!
+P
+==========
+httpGet OK!
+                datetime    open   close    ...        MA10      MA20      MA60
+199  2019-05-10 17:00:00  4.8453  4.8476    ...     4.80683  4.813325  4.864802
+
+[1 rows x 15 columns]
+PASS THIS TIME!
+P
+==========
+httpGet OK!
+                datetime    open   close   ...        MA10     MA20     MA60
+199  2019-05-10 17:00:00  4.8453  4.8277   ...     4.80484  4.81233  4.86447
+
+[1 rows x 15 columns]
+PASS THIS TIME!
+httpGet OK!
+                datetime    open   close    ...        MA10      MA20      MA60
+199  2019-05-10 17:00:00  4.8453  4.8308    ...     4.80515  4.812485  4.864522
+
+[1 rows x 15 columns]
+PASS THIS TIME!
+httpGet OK!
+                datetime    open   close    ...        MA10     MA20      MA60
+199  2019-05-10 17:00:00  4.8453  4.8285    ...     4.80492  4.81237  4.864483
+
+[1 rows x 15 columns]
+PASS THIS TIME!
+httpGet OK!
+                datetime    open   close    ...        MA10    MA20      MA60
+199  2019-05-10 17:00:00  4.8453  4.8311    ...     4.80518  4.8125  4.864527
+
+[1 rows x 15 columns]
+PASS THIS TIME!
+GET ORDERS: {'status': 'ok', 'data': [{'amount': '5.000000000000000000', 'type': 'buy-market', 'id': 32437287080, 'created-at': 1557471704089, 'account-id': 4664571, 'symbol': 'eosusdt', 'field-amount': '1.021923562713319299', 'state': 'filled', 'price': '0.0', 'field-fees': '0.002043847125426639', 'canceled-at': 0, 'source': 'api', 'field-cash-amount': '4.999999999999999998', 'finished-at': 1557471704199}]}
+MY COST:4.902519310444219
+eosusdt Cost: 4.902519310444219
+==========
+P
+==========
+eosusdt Cost: 4.902519310444219
+==========
+==========
+httpGet OK!
+                datetime    open   close    ...        MA10     MA20      MA60
+199  2019-05-10 17:00:00  4.8453  4.8309    ...     4.80516  4.81249  4.864523
+
+[1 rows x 15 columns]
+PASS THIS TIME!
+GET ORDERS: {'status': 'ok', 'data': [{'source': 'api', 'amount': '5.000000000000000000', 'id': 32437287080, 'field-cash-amount': '4.999999999999999998', 'canceled-at': 0, 'field-amount': '1.021923562713319299', 'account-id': 4664571, 'created-at': 1557471704089, 'finished-at': 1557471704199, 'symbol': 'eosusdt', 'price': '0.0', 'type': 'buy-market', 'state': 'filled', 'field-fees': '0.002043847125426639'}]}
+MY COST:4.902519310444219
+eosusdt Cost: 4.902519310444219
+==========
+P
+==========
+eosusdt Cost: 4.902519310444219
+==========
+==========
+httpGet OK!
+                datetime    open   close   ...        MA10    MA20     MA60
+199  2019-05-10 17:00:00  4.8453  4.8271   ...     4.80478  4.8123  4.86446
+
+[1 rows x 15 columns]
+PASS THIS TIME!
+eosusdt Cost: 4.902519310444219
+==========
+P
+==========
+eosusdt Cost: 4.902519310444219
+==========
+==========
+httpGet OK!
+                datetime    open   close    ...        MA10      MA20      MA60
+199  2019-05-10 18:00:00  4.8358  4.8355    ...     4.82317  4.813375  4.863593
+
+[1 rows x 15 columns]
+PASS THIS TIME!
+eosusdt Cost: 4.902519310444219
+==========
+P
+==========
+eosusdt Cost: 4.902519310444219
+==========
+==========
+httpGet OK!
+                datetime    open   close    ...        MA10      MA20      MA60
+199  2019-05-10 19:00:00  4.8186  4.8191    ...     4.83138  4.812625  4.862867
+
+[1 rows x 15 columns]
+PASS THIS TIME!
+eosusdt Cost: 4.902519310444219
+==========
+P
+==========
+eosusdt Cost: 4.902519310444219
+==========
+==========
+httpGet OK!
+                datetime   open   close    ...        MA10      MA20      MA60
+199  2019-05-10 20:00:00  4.817  4.8152    ...     4.84134  4.811905  4.863125
+
+[1 rows x 15 columns]
+PASS THIS TIME!
+eosusdt Cost: 4.902519310444219
+==========
+P
+==========
+eosusdt Cost: 4.902519310444219
+==========
+==========
+httpGet OK!
+                datetime    open  close    ...        MA10      MA20      MA60
+199  2019-05-10 21:00:00  4.8169  4.816    ...     4.85183  4.812485  4.862313
+
+[1 rows x 15 columns]
+PASS THIS TIME!
+eosusdt Cost: 4.902519310444219
+==========
+P
+==========
+eosusdt Cost: 4.902519310444219
+==========
+==========
+httpGet OK!
+                datetime    open   close    ...        MA10     MA20      MA60
+199  2019-05-10 22:00:00  4.8252  4.8252    ...     4.84346  4.81466  4.861862
+
+[1 rows x 15 columns]
+PASS THIS TIME!
+eosusdt Cost: 4.902519310444219
+==========
+P
+==========
+eosusdt Cost: 4.902519310444219
+==========
+==========
+httpGet OK!
+                datetime    open   close    ...        MA10     MA20      MA60
+199  2019-05-10 23:00:00  4.7959  4.7915    ...     4.83271  4.81309  4.860188
+
+[1 rows x 15 columns]
+PASS THIS TIME!
+eosusdt Cost: 4.902519310444219
+==========
+P
+==========
+eosusdt Cost: 4.902519310444219
+==========
+==========
+httpGet OK!
+                datetime    open   close    ...        MA10     MA20      MA60
+199  2019-05-11 00:00:00  4.8228  4.8228    ...     4.82911  4.81494  4.858888
+
+[1 rows x 15 columns]
+PASS THIS TIME!
+eosusdt Cost: 4.902519310444219
+==========
+P
+==========
+eosusdt Cost: 4.902519310444219
+==========
+==========
+httpGet OK!
+                datetime    open   close    ...        MA10      MA20      MA60
+198  2019-05-11 00:00:00  4.8228  4.8155    ...     4.82838  4.814575  4.858767
+
+[1 rows x 15 columns]
+PASS THIS TIME!
+eosusdt Cost: 4.902519310444219
+==========
+P
+==========
+eosusdt Cost: 4.902519310444219
+==========
+==========
+httpGet OK!
+                datetime    open   close    ...       MA10     MA20      MA60
+199  2019-05-11 02:00:00  4.8465  4.8477    ...     4.8242  4.81571  4.856653
+
+[1 rows x 15 columns]
+PASS THIS TIME!
+eosusdt Cost: 4.902519310444219
+==========
+P
+==========
+eosusdt Cost: 4.902519310444219
+==========
+==========
+httpGet OK!
+                datetime    open  close    ...        MA10     MA20      MA60
+199  2019-05-11 03:00:00  4.8294   4.83    ...     4.82177  4.81372  4.855505
+
+[1 rows x 15 columns]
+PASS THIS TIME!
+eosusdt Cost: 4.902519310444219
+==========
+P
+==========
+eosusdt Cost: 4.902519310444219
+==========
+==========
+httpGet OK!
+                datetime    open   close   ...        MA10      MA20     MA60
+199  2019-05-11 04:00:00  4.8311  4.8332   ...     4.82334  4.822405  4.85455
+
+[1 rows x 15 columns]
+PASS THIS TIME!
+eosusdt Cost: 4.902519310444219
+==========
+P
+==========
+eosusdt Cost: 4.902519310444219
+==========
+==========
+httpGet OK!
+                datetime    open   close    ...        MA10      MA20      MA60
+199  2019-05-11 05:00:00  4.8633  4.8639    ...     4.83104  4.831105  4.854542
+
+[1 rows x 15 columns]
+PASS THIS TIME!
+eosusdt Cost: 4.902519310444219
+==========
+P
+==========
+eosusdt Cost: 4.902519310444219
+==========
+==========
+httpGet OK!
+                datetime    open   close    ...        MA10      MA20      MA60
+199  2019-05-11 06:00:00  4.8353  4.8323    ...     4.82972  4.835615  4.852623
+
+[1 rows x 15 columns]
+PASS THIS TIME!
+eosusdt Cost: 4.902519310444219
+==========
+P
+==========
+eosusdt Cost: 4.902519310444219
+==========
+==========
+httpGet OK!
+                datetime    open   close    ...        MA10      MA20      MA60
+199  2019-05-11 07:00:00  4.8503  4.8503    ...     4.83396  4.843355  4.852002
+
+[1 rows x 15 columns]
+PASS THIS TIME!
+eosusdt Cost: 4.902519310444219
+==========
+P
+==========
+eosusdt Cost: 4.902519310444219
+==========
+==========
+httpGet OK!
+                datetime    open   close    ...       MA10      MA20      MA60
+198  2019-05-11 07:00:00  4.8503  4.8147    ...     4.8304  4.841575  4.851408
+
+[1 rows x 15 columns]
+PASS THIS TIME!
+eosusdt Cost: 4.902519310444219
+==========
+P
+==========
+eosusdt Cost: 4.902519310444219
+==========
+==========
+httpGet OK!
+INPUT MongoDB OK!
+                datetime    open   close    ...        MA10    MA20      MA60
+198  2019-05-11 08:00:00  4.8147  4.8506    ...     4.83588  4.8382  4.850647
+
+[1 rows x 15 columns]
+PASS THIS TIME!
+eosusdt Cost: 4.902519310444219
+==========
+P
+==========
+eosusdt Cost: 4.902519310444219
+==========
+==========
+httpGet OK!
+INPUT MongoDB OK!
+                datetime    open  close    ...       MA10     MA20      MA60
+198  2019-05-11 09:00:00  4.8506  4.899    ...     4.8435  4.83967  4.850585
+
+[1 rows x 15 columns]
+PASS THIS TIME!
+eosusdt Cost: 4.902519310444219
+==========
+P
+==========
+eosusdt Cost: 4.902519310444219
+==========
+==========
+httpGet OK!
+INPUT MongoDB OK!
+                datetime    open   close   ...        MA10      MA20     MA60
+198  2019-05-11 10:00:00  4.8991  4.9002   ...     4.85197  4.840175  4.85065
+
+[1 rows x 15 columns]
+PASS THIS TIME!
+eosusdt Cost: 4.902519310444219
+==========
+P
+==========
+eosusdt Cost: 4.902519310444219
+==========
+==========
+httpGet OK!
+INPUT MongoDB OK!
+                datetime    open   close   ...        MA10      MA20     MA60
+197  2019-05-11 10:00:00  4.8991  4.9002   ...     4.85197  4.840175  4.85065
+
+[1 rows x 15 columns]
+PASS THIS TIME!
+eosusdt Cost: 4.902519310444219
+==========
+P
+==========
+eosusdt Cost: 4.902519310444219
+==========
+==========
+httpGet OK!
+INPUT MongoDB OK!
+                datetime    open   close    ...        MA10     MA20      MA60
+198  2019-05-11 12:00:00  4.8996  4.8857    ...     4.86289  4.84263  4.850442
+
+[1 rows x 15 columns]
+PASS THIS TIME!
+eosusdt Cost: 4.902519310444219
+==========
+P
+==========
+eosusdt Cost: 4.902519310444219
+==========
+==========
+httpGet OK!
+INPUT MongoDB OK!
+                datetime    open   close   ...        MA10     MA20     MA60
+198  2019-05-11 13:00:00  4.8856  4.9264   ...     4.87243  4.84715  4.85123
+
+[1 rows x 15 columns]
+PASS THIS TIME!
+eosusdt Cost: 4.902519310444219
+==========
+P
+==========
+eosusdt Cost: 4.902519310444219
+==========
+==========
+httpGet OK!
+INPUT MongoDB OK!
+                datetime    open   close   ...       MA10      MA20    MA60
+198  2019-05-11 14:00:00  4.9263  4.9318   ...    4.87928  4.852815  4.8524
+
+[1 rows x 15 columns]
+httpGet OK!
+INPUT MongoDB OK!
+                datetime    open   close    ...       MA10     MA20      MA60
+198  2019-05-11 15:00:00  4.9318  4.9235    ...     4.8881  4.85814  4.853165
+
+[1 rows x 15 columns]
+httpGet OK!
+INPUT MongoDB OK!
+                datetime    open   close    ...       MA10      MA20      MA60
+198  2019-05-11 16:00:00  4.9236  5.1216    ...     4.9153  4.873375  4.857222
+
+[1 rows x 15 columns]
+httpGet OK!
+INPUT MongoDB OK!
+                datetime    open  close    ...        MA10      MA20      MA60
+198  2019-05-11 17:00:00  5.1201  5.264    ...     4.96023  4.895315  4.863578
+
+[1 rows x 15 columns]
+httpGet OK!
+INPUT MongoDB OK!
+                datetime    open   close    ...        MA10     MA20      MA60
+198  2019-05-11 18:00:00  5.2641  5.3401    ...     5.00918  4.92253  4.870872
+
+[1 rows x 15 columns]
+httpGet OK!
+INPUT MongoDB OK!
+                datetime    open   close    ...        MA10      MA20      MA60
+198  2019-05-11 19:00:00  5.3402  5.2761    ...     5.04689  4.945195  4.877157
+
+[1 rows x 15 columns]
+httpGet OK!
+                datetime   open  close    ...        MA10     MA20      MA60
+198  2019-05-11 20:00:00  5.276   5.31    ...     5.08787  4.96992  4.883323
+
+[1 rows x 15 columns]
+SellTime:2019-05-11 21:00:02:close:5.31 , >MA5:5.262359999999999, >MA10:5.087870000000002, >MA20:4.969920000000004, >MA60:4.883323333333337
+eosusdt Cost: -153.23264082480316
+==========
+eos_close:5.3058
+eos balance:9.8170059144154e-05 ,sellnum: 0.0
+==========
+eosusdt Cost: -153.23264082480316
+==========
+==========
+httpGet OK!
+                datetime  open   close    ...        MA10      MA20      MA60
+198  2019-05-11 21:00:00  5.31  5.3099    ...     5.12891  4.993085  4.889168
+
+[1 rows x 15 columns]
+SellTime:2019-05-11 22:00:04:close:5.3099 , >MA5:5.300019999999999, >MA10:5.128910000000002, >MA20:4.993085000000003, >MA60:4.889168333333337
+eosusdt Cost: -153.23264082480316
+==========
+eos_close:5.3051
+eos balance:9.8170059144154e-05 ,sellnum: 0.0
+==========
+eosusdt Cost: -153.23264082480316
+==========
+==========
