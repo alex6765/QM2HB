@@ -66,12 +66,12 @@ df2['MA10'] = ta.MA(close, timeperiod=10)
 df2['MA20'] = ta.MA(close, timeperiod=20)
 df2['MA60'] = ta.MA(close, timeperiod=60)
 
-if dbtype == 'csv'
+if dbtype == 'csv':
     bakfilename = "HuoBi_"+tokens+"_"+period.csv"
     df2.to_csv(bakfilename,index=False)
     print("Data backup to ->"+bakfilename)
 
-if dbtype == 'mongodb'
+if dbtype == 'mongodb':
     myclient = pymongo.MongoClient("mongodb://47.94.96.48:27017/")
     mydb = myclient["huobi"]
     mycol = mydb[tokens+period]
