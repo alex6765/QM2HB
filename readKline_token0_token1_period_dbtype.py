@@ -67,17 +67,14 @@ df2['MA20'] = ta.MA(close, timeperiod=20)
 df2['MA60'] = ta.MA(close, timeperiod=60)
 
 if dbtype == 'csv':
-    bakfilename = "HuoBi_"+tokens+"_"+period.csv"
+    bakfilename = "HuoBi_"+tokens+"_"+period+".csv"
     df2.to_csv(bakfilename,index=False)
     print("Data backup to ->"+bakfilename)
-
-if dbtype == 'mongodb':
+elif dbtype == 'mongodb':
     myclient = pymongo.MongoClient("mongodb://47.94.96.48:27017/")
     mydb = myclient["huobi"]
     mycol = mydb[tokens+period]
-    try:
-        mycol.remove({})
-        print("MongdoDB removing!!!")
+    mycol.remove({})
     mycol.insert_many(json.loads(df2.T.to_json()).values())
     print("INPUT MongoDB OK!")
 
