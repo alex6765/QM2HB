@@ -60,9 +60,9 @@ df2['MA20'] = ta.MA(close, timeperiod=20)
 df2['MA60'] = ta.MA(close, timeperiod=60)
 
 #保存CSV
-# bakfilename = "HUOBI_BTCUSDT_"+df2['datetime'].head(1).values[0]+'_'+df2['datetime'].tail(1).values[0]+".csv"
-# df2.to_csv(bakfilename,index=False)
-# print("Data backup to ->"+bakfilename)
+bakfilename = "HUOBI_BTCUSDT_"+df2['datetime'].head(1).values[0]+'_'+df2['datetime'].tail(1).values[0]+".csv"
+df2.to_csv(bakfilename,index=False)
+print("Data backup to ->"+bakfilename)
 
 # 导入mongodb
 # myclient = pymongo.MongoClient("mongodb://47.94.96.48:27017/")
