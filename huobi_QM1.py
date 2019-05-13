@@ -11,8 +11,14 @@ import json
 from QMODEL import qma01,TokenCost
 from huobiAPI.HuobiServices import *
 
+
+token0 = 'eos'
+token1 = 'usdt'
+tokens = token0+token1
+
+
 # 读取火币K线数据
-HuoBiAPI= "https://api.huobi.pro/market/history/kline?period=60min&size=200&symbol=eosusdt"
+HuoBiAPI= "https://api.huobi.pro/market/history/kline?period=60min&size=200&symbol="+tokens
 # HuoBiAPI= "https://api.huobi.pro/market/history/kline?period=60min&size=2000&symbol=bchusdt"
 # HuoBiAPI= "https://api.huobi.pro/market/history/kline?period=60min&size=2000&symbol=eosusdt"
 # HuoBiAPI= "https://api.huobi.pro/market/history/kline?period=60min&size=2000&symbol=ethusdt"
@@ -60,7 +66,8 @@ df2['MA20'] = ta.MA(close, timeperiod=20)
 df2['MA60'] = ta.MA(close, timeperiod=60)
 
 #保存CSV
-bakfilename = "HUOBI_BTCUSDT_"+df2['datetime'].head(1).values[0]+'_'+df2['datetime'].tail(1).values[0]+".csv"
+# bakfilename = "HUOBI_BTCUSDT_"+df2['datetime'].head(1).values[0]+'_'+df2['datetime'].tail(1).values[0]+".csv"
+bakfilename = "HUOBI_"+tokens+".csv"
 df2.to_csv(bakfilename,index=False)
 print("Data backup to ->"+bakfilename)
 
@@ -75,9 +82,7 @@ print("Data backup to ->"+bakfilename)
 # 执行交易策略
 signal = qma01.dttest(df2)
 # signal = 'P'
-token0 = 'eos'
-token1 = 'usdt'
-tokens = token0+token1
+
 cost = TokenCost.mycost(tokens)
 print('%s Cost: %s'%(tokens,cost))
 print('='*10)
