@@ -58,6 +58,7 @@ df2 = df2.sort_values(by = 'datetime',ascending=True)
 df2 = df2.reset_index(drop=True)
 
 close = np.array(df2['close'].values,dtype='f8')
+vol = np.array(df2['vol'].values,dtype='f8')
 # 获取MACD macd(对应diff),macdsignal(对应dea),macdhist(对应macd)
 df2['DIFF'], df2['DEA'], df2['MACD']  = ta.MACD(close,  fastperiod=12, slowperiod=26, signalperiod=9) 
 # 获取均线
@@ -65,6 +66,11 @@ df2['MA5'] = ta.MA(close, timeperiod=5)
 df2['MA10'] = ta.MA(close, timeperiod=10)
 df2['MA20'] = ta.MA(close, timeperiod=20)
 df2['MA60'] = ta.MA(close, timeperiod=60)
+
+df2['VOL5'] = ta.MA(vol, timeperiod=5)
+df2['VOL10'] = ta.MA(vol, timeperiod=10)
+df2['VOL20'] = ta.MA(vol, timeperiod=20)
+df2['VOL60'] = ta.MA(vol, timeperiod=60)
 
 if dbtype == 'csv':
     bakfilename = "HuoBi_"+tokens+"_"+period+".csv"
