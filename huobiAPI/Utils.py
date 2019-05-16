@@ -5,6 +5,7 @@
 # @QQ      : 375235513
 # @github  : https://github.com/KlausQIU
 
+from acck import acckey
 import base64
 import datetime
 import hashlib
@@ -15,7 +16,16 @@ import urllib.parse
 import urllib.request
 import requests
 
+ACCESS_KEY = acckey.ACCESS_KEY
+SECRET_KEY = acckey.SECRET_KEY
 
+
+
+# API 请求地址
+MARKET_URL = acckey.MARKET_URL
+TRADE_URL = acckey.TRADE_URL
+
+ACCOUNT_ID = acckey.ACCOUNT_ID
 
 #'Timestamp': '2017-06-02T06:13:49'
 
