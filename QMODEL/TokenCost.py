@@ -6,7 +6,20 @@ import json
 
 def mycost(token):
     orders = orders_list(token,'filled')
-    df = pd.DataFrame.from_dict(orders['data'])
+    
+    # 更新数据库
+    if orders['data']:
+        print('DATA = NONE')
+    else:
+        df = pd.DataFrame.from_dict(orders['data'])
+        print(df)
+        myclient = pymongo.MongoClient("mongodb://47.94.96.48:27017/")
+        mydb = myclient["huobi"]
+        mycol = mydb['orders'+token]
+        mycol.remove({})
+        mycol.insert_many(json.loads(df.T.to_json()).values())
+        print(" %s Orders Input MongoDB OK!" %token)
+
     buylist = ['buy-market','buy-limit']
     sellist = ['sell-market','sell-limit']
     cash = 0.0
