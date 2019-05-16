@@ -15,19 +15,7 @@ import urllib.parse
 import urllib.request
 import requests
 
-# 此处填写APIKEY
 
-ACCESS_KEY = "910d9655-bdc0508a-40f8aefc-39d6d"
-SECRET_KEY = "eb9861f0-9aa69bdb-05f0f0e0-cfb86"
-
-
-
-# API 请求地址
-MARKET_URL = "https://api.huobi.pro"
-TRADE_URL = "https://api.huobi.pro"
-
-# 首次运行可通过get_accounts()获取acct_id,然后直接赋值,减少重复获取。
-ACCOUNT_ID = 4664571
 
 #'Timestamp': '2017-06-02T06:13:49'
 
