@@ -5,7 +5,7 @@
 # @QQ      : 375235513
 # @github  : https://github.com/KlausQIU
 
-from acck import acckey
+from huobiAPI.acck import acckey
 import base64
 import datetime
 import hashlib
