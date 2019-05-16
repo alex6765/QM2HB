@@ -35,8 +35,10 @@ def mycost(token):
     # cost= cash/tokens*1.002
     # print('GET ORDERS: %s'%orders)
     # print('MY COST:%s'%cost)
-    return df
+    print(df)
+    return ()
 
-
+if __name__ == '__main__':
+    mycost('eosusdt')
 
 # df.to_excel('orders.xlsx')
