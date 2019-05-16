@@ -2,6 +2,7 @@
 # coding: utf-8
 from huobiAPI.HuobiServices import *
 import pandas as pd
+import pymongo
 import json
 
 def mycost(token):
