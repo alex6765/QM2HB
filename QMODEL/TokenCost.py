@@ -10,8 +10,6 @@ def mycost(token):
     
     # 更新数据库
     if orders['data']:
-        print('DATA = NONE')
-    else:
         df = pd.DataFrame.from_dict(orders['data'])
         myclient = pymongo.MongoClient("mongodb://47.94.96.48:27017/")
         mydb = myclient["huobi"]
@@ -19,6 +17,8 @@ def mycost(token):
         mycol.remove({})
         mycol.insert_many(json.loads(df.T.to_json()).values())
         print(" %s Orders Input MongoDB OK!" %token)
+    else:
+        print('DATA = NONE')
 
     # buylist = ['buy-market','buy-limit']
     # sellist = ['sell-market','sell-limit']
