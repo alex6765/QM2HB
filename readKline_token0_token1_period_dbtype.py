@@ -60,6 +60,7 @@ df2 = df2.reset_index(drop=True)
 close = np.array(df2['close'].values,dtype='f8')
 vol = np.array(df2['vol'].values,dtype='f8')
 # 获取MACD macd(对应diff),macdsignal(对应dea),macdhist(对应macd)
+df2['ATR'] = ta.ATR(df2['high'].values,df2['low'].values,df2['close'].values, timeperiod=20)
 df2['DIFF'], df2['DEA'], df2['MACD']  = ta.MACD(close,  fastperiod=12, slowperiod=26, signalperiod=9) 
 # 获取均线
 df2['MA5'] = ta.MA(close, timeperiod=5)
